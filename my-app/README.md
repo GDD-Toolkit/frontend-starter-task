@@ -1,14 +1,14 @@
 # Directions
-For this starter task, you must attempt to replicate the "Color Counter" web app. This web app will allow users to click on any button which corresponds to a color. After clicking on the button, the # of clicks for that button or color should increase. Additionally, the background color will change into the corresponding color the user clicked on. Finally, the user has the ability to clear the board or clear the click counts. By doing so, the background color should change back to grey.
+For this starter task, you must attempt to replicate the "Color Counter" web app. This web app will allow users to click on any button which corresponds to a color. After clicking on the button, the # of clicks for that button or color should increase. Finally, the user has the ability to clear the board or clear the click counts.
 
 Again, replicate this [Figma](https://www.figma.com/file/166txm971FKz1kipHk9B3z/Frontend-Starter-Tasks?type=design&node-id=0-1&mode=design&t=ro6JGb1jC9AgTw6m-0).
 
-IMPORTANT: Read this Guidelines doc before you start and after you finish. It will tell you how to make and add your changes to this application. Additionally, it will consist of guidelines on styling!
+IMPORTANT: Read this [Guidelines doc](https://docs.google.com/document/d/1x-ARz-43vumOqSSh480ojD0nTdyqLaKZhF-MYAV-klQ/edit?usp=sharing) before you start and after you finish. It will tell you how to make and add your changes to this application. Additionally, it will consist of guidelines on styling!
 
 If you have any questions, reach out to Jessica Nguyen on Slack!
 
 ## Guidelines
-[Follow this doc f]
+[Follow this doc for styling and how to get started on this task](https://docs.google.com/document/d/1x-ARz-43vumOqSSh480ojD0nTdyqLaKZhF-MYAV-klQ/edit?usp=sharing).
 
 ## Resources
 [Using Typescript](https://www.typescriptlang.org/docs/).
