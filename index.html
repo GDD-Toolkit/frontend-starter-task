@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Counter</title>
+    <link href="https://fonts.google.com/specimen/Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
         <h1>Color Counter</h1>
-        <div class="container">
-            <button id="red-btn"></button>
-            <p id="redCount">0</p>
-            <button id="yellow-btn"></button>
-            <p id="yellowCount">0</p>
-            <button id="green-btn"></button>
-            <p id="greeenCount">0</p>
-            <button id="blue-btn"></button>
-            <p id="blueCount">0</p>
-            <button id="clear-btn">Clear Board</button>
-    <script src="style.js"></script>
+        <div class="buttons-container">
+            <div class="color-container">
+                <button id="red-btn" class="color-btn red">Red</button>
+                <p class="count-num" id="red-count">0</p>
+            </div>
+            <div class="color-container">
+                <button id="yellow-btn" class="color-btn yellow">Yellow</button>
+                <p class="count-num" id="yellow-count">0</p>
+            </div>
+            <div class="color-container">
+                <button id="green-btn" class="color-btn green">Green</button>
+                <p class="count-num" id="green-count">0</p>
+            </div>
+            <div class="color-container">
+                <button id="blue-btn" class="color-btn blue">Blue</button>
+                <p class="count-num" id="blue-count">0</p>
+            </div>
+        </div>
+        <button id="clear-btn" class="clear-btn">Clear Board</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
