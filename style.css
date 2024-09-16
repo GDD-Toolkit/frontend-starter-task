@@ -29,7 +29,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 115px;
 }
 
 .buttons div {
@@ -41,7 +41,7 @@ p {
 }
 
 div button {
-    border-radius: 30px;
+    border-radius: 45px;
     padding: 25px;
     width: 180px;
     border-width: 5px;
