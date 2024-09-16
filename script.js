@@ -9,20 +9,23 @@ const green = document.querySelector(".greenCount");
 const blue = document.querySelector(".blueCount");
 
 function changeBackgroundColor(color){
-    document.body.style.background = color;
     if(color=='red'){
+        document.body.style.background = 'rgb(221, 84, 113)';
         redCount = redCount + 1;
         red.textContent = redCount;    
     }
     else if(color=='yellow'){
+        document.body.style.background = 'rgb(248, 211, 119)';
         yellowCount = yellowCount + 1;
         yellow.textContent = yellowCount;    
     }
     else if(color=='green'){
+        document.body.style.background = 'rgb(98, 211, 163)';
         greenCount = greenCount + 1;
         green.textContent = greenCount;    
     }
     else if(color=='blue'){
+        document.body.style.background = 'rgb(63, 136, 174)';
         blueCount = blueCount + 1;
         blue.textContent = blueCount;    
     }
@@ -30,11 +33,18 @@ function changeBackgroundColor(color){
 }
 
 function clearBoard(){
-    document.body.style.background = 'lightgrey';
-    red.textContent = 0;
-    yellow.textContent = 0;
-    green.textContent = 0;
-    blue.textContent = 0;
+    document.body.style.background = 'rgb(206, 205, 203)';
+    redCount = 0;
+    red.textContent = redCount;
+
+    yellowCount = 0;
+    yellow.textContent = yellowCount;
+
+    greenCount = 0;
+    green.textContent = greenCount;
+
+    blueCount = 0;
+    blue.textContent = blueCount;
 
     // reset count
 }

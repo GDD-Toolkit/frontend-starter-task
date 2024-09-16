@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Color Counter</h1>
-    <button onclick="changeBackgroundColor('red');">Red</button>
-    <p class="redCount">0</p>
-    <button onclick="changeBackgroundColor('yellow');">Yellow</button>
-    <p class="yellowCount">0</p>
-    <button onclick="changeBackgroundColor('green');">Green</button>
-    <p class="greenCount">0</p>
-    <button onclick="changeBackgroundColor('blue');">Blue</button>
-    <p class="blueCount">0</p>
-    <button onclick="clearBoard();">Clear Board</button>
+    <h1>COLOR COUNTER</h1>
+
+    <div class="buttons">
+        <div class="red">
+            <button onclick="changeBackgroundColor('red');" style="border-color: rgb(221, 84, 113);">Red</button>
+            <p class="redCount">0</p>    
+        </div>
+        <div class="yellow">
+            <button onclick="changeBackgroundColor('yellow');" style="border-color: rgb(248, 211, 119);">Yellow</button>
+            <p class="yellowCount">0</p>    
+        </div>
+        <div class="green">
+            <button onclick="changeBackgroundColor('green');" style="border-color: rgb(98, 211, 163);">Green</button>
+            <p class="greenCount">0</p>    
+        </div>
+        <div class="blue">
+            <button onclick="changeBackgroundColor('blue');" style="border-color: rgb(63, 136, 174);">Blue</button>
+            <p class="blueCount">0</p>    
+        </div>
+    </div>
+    
+    <button onclick="clearBoard();" class="clear">Clear Board</button>
 
     <script src="script.js"></script>
 
