@@ -1,0 +1,64 @@
+.colorcounter {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App {
+  transition: background-color 0.5s ease; /* Smooth background color change */
+  height: 100vh; /* Full screen height */
+}
+
+.buttons {
+  display: flex; /* Makes buttons side by side */
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.color-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px; /* Space between color sections */
+}
+
+.buttons button, .clearbutton {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 40px;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+}
+
+.buttons button:hover, .clearbutton:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
+
+.redbutton {
+  border: 5px solid red;
+}
+
+.yellowbutton {
+  border: 5px solid yellow;
+}
+
+.greenbutton {
+  border: 5px solid green;
+}
+
+.bluebutton {
+  border: 5px solid blue;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clear-section {
+  margin-top: 30px; /* Space between buttons and Clear Board button */
+  text-align: center;
+}
